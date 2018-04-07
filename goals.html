@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Goals List</title>
+        <link rel="stylesheet" href="goals.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="navbar"> 
+            
+            <a class="navitem" href="about.html">About</a>
+            <a class="navitem" href="collegerec.html">College Recommendations</a>
+            <a class="navitem" href="tracker.html">Hours Tracker</a>
+            <a class="navitem" href="goals.html">Goals </a>
+        
+    </div>
+        <div id="header-title">
+            <p> Your Goals </p>
+        </div>
+        <div class="sub-title">
+            <p> Goal Setting Page: </p>
+        </div>
+        <div class="relative1">
+            <p>  
+        This is the place where one can set their goals. Here you can delete and set goals, a very important skill in college and the workplace.
+            </p>
+            <p>
+            To enter a goal, type the goal into the box and press submit.
+            </p>
+            <p>
+            To remove a goal, type the goal's number into the box and press remove.
+            </p>
+            <p> If you do not know the goal's number, press Print. It will print out all goals and their number.</p>
+        </div>
+
+    <input id="userInputGoals" type="text" placeholder="Enter your goal" >
+    <button class="submit-button" type="submit">Submit</button>
+    <input id="userInputRemoveGoals" type="text" placeholder="Remove a goal" >
+    <button class="remove-button" type="submit">Remove</button>
+    <input id="FrontGoals" type="text" placeholder="Put a goal first" >
+    <button class="front-button" type="submit">Put In Front</button>
+    <input id="EndGoals" type="text" placeholder="Put a goal last" >
+    <button class="end-button" type="submit">Put In Back</button>
+    <button class="print-button">Print</button>
+        
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="goals.js"></script>
+</html>

@@ -1,0 +1,80 @@
+body {
+    background-color: #ed8c72; 
+}
+
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:block;
+    background-color:#2f496e;
+    width:1440px;
+    height:20px;
+    padding:20px;
+    color:white;
+    text-align:center;
+}
+.navitem{
+    color:white;
+    padding:50px ;
+    text-align:center;
+    text-decoration:none;
+    font-family:Open Sans;
+}
+body{
+    margin:0;
+    color:#f4eade;
+    width:100%;
+    font-family:Quattrocento;
+}
+
+#eventinput{
+    text-align:left;
+    width:600px;
+    height:55px;
+    background-color:#f4eade;
+    margin:25px;
+}
+#eventbox{
+    display:block;
+    text-align:center;
+    padding-top:100px;
+    margin-bottom:15px;
+}
+#dateinput{
+    text-align:left;
+    width:600px;
+    height:55px;
+    background-color:#f4eade;
+    margin:25px;
+}
+
+#datebox{
+    display:block;
+    text-align:center;
+    padding-top:200px;
+}
+
+#organizinput{
+    text-align:left;
+    width:600px;
+    height:55px;
+    background-color:#f4eade;
+    margin:25px;
+
+}
+#totalhinput{
+    text-align:left;
+    width:600px;
+    height:55px;
+    background-color:#f4eade;
+    margin:25px;
+
+}
+
+#btn{
+    width:200px;
+    height:40px;
+    background-color:#f4eade;
+}
+

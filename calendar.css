@@ -1,0 +1,12 @@
+#calendar{
+    border: 0;
+    overflow: scroll;
+    width: 800px;
+    height: 600px;
+}
+
+iframe {
+    width: 800px;
+    border: 0;
+    overflow: scroll;
+}

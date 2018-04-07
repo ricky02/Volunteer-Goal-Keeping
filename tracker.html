@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="tracker.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <title>Volunteer Hour Tracker</title>
+    </head>
+    <body>
+            <div id="navbar"> 
+            
+            <a class="navitem" href="about.html">About</a>
+            <a class="navitem" href="collegerec.html">College Recommendations</a>
+            <a class="navitem" href="tracker.html">Hours Tracker</a>
+            <a class="navitem" href="goals.html">Goals </a>
+        
+    </div>
+        <p id="p1" >Volunteer Hour Tracker</p>
+        
+        <form action="/action_page.php">
+           Description: <input id="userInputDescription" type="text" placeholder="Enter volunteer description" ><br>
+        </form>
+        
+        <form action="/action_page.php">
+        Hours:<input id="userInputVolunteerHours" type="text" placeholder="Enter your hours" >
+        </form>
+        <button class="submit-button" type="submit">Submit</button>
+            
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <form action="/action_page.php">
+            <span class="hoursInput">Description:</span><br>
+            <div class="volunteerTotal">
+            <div id="volunteerDescription"></div>
+            </div>
+            <br><br>
+        </form>
+        
+        <form action="/action_page.php" id="complete">
+            <span class="hoursInput">Accumulated hours:</span><br> 
+            <div id="totalHours">
+            </div>
+        </form>
+        <script src="tracker.js"></script>
+    </body>
+</html>
